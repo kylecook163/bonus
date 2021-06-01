@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- have the title of the page -->
+        <title>A look into Kyle</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=yes"/>
+        <link rel="stylesheet" href="style.css">
+
+
+
+        <style>
+            * {
+                line-height: 140%;
+            }
+
+            body {
+                /* have the background colour set to light blue  */
+                background-color: whitesmoke;
+                color: whitesmoke;
+                font-size: 25px;
+                margin: 5% 10%;
+            }
+            #header {
+                display: inline-block;
+                right: 50%;
+                /* transform: translateX(-50%); */
+                padding: 10px;
+                font-size: 36px;
+                background-color: gray;
+                border-radius: 5px;
+            }
+            .grid-container {
+                display: inline-grid;
+                grid-template-columns: auto auto auto;
+                background-color: dimgray;
+                padding: 10px;
+            }
+
+            .grid-item {
+                background-color: lightblue;
+                border: 1px solid rgba(0, 0, 0, 0.8);
+                padding: 20px;
+                font-size: 30px;
+                text-align: center;
+            }
+
+            </style>
+
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <a href="index.html" id="active">
+                    
+                    <li id="home">Home</li>
+                
+                </a>
+                <a href="A Look into Kyle.html">
+                    
+                    <li id="A look into Kyle">A Look into Kyle</li>
+                
+                </a>
+                <a href="Random stuff.html">
+                    
+                    <li id="Random stuff">Random Stuff</li>
+                
+                </a>
+            </ul>
+        </nav>
+        <main>
+            <h1 id="header">
+                here's a box with some apple products that are coming out
+            </h1>
+            <div class="grid-container">
+                <div class="grid-item">Macbook pro with M Chip</div>
+                <div class="grid-item">Macbook Pro 16 with M Chip</div>
+                <div class="grid-item">Airpods 3</div>  
+                <div class="grid-item">iMac 30 inch with M Chip</div>
+                <div class="grid-item">Beats studio Buds</div>
+                <div class="grid-item">redesined Mac Mini</div>    
+              </div>
+        </main>
+</html>
